@@ -35,4 +35,8 @@
   <div class="d-flex justify-content-center">
     {{ $servicos->links() }}
   </div>
+
+  <div class="float-right">
+    <a class="btn btn-success" href="{{ route('servicos.create') }}">Novo Serviço</a>
+  </div>
 @stop

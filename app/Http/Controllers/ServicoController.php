@@ -13,4 +13,9 @@ class ServicoController extends Controller
 
         return view('servicos.index')->with('servicos', $servicos);
     }
+
+    public function create()
+    {
+        return view('servicos.create');
+    }
 }

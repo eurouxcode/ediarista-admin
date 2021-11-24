@@ -237,7 +237,7 @@ return [
                 ],
                 [
                     'text' => 'Cadastrar Serviço',
-                    'url'  => '#',
+                    'route'  => 'servicos.create',
                     'icon' => 'fas fa-fw fa-file',
                 ],
             ],
