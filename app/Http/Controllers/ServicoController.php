@@ -9,7 +9,7 @@ class ServicoController extends Controller
 {
     public function index()
     {
-        $servicos = Servico::get();
+        $servicos = Servico::paginate(10);
 
         return view('servicos.index')->with('servicos', $servicos);
     }

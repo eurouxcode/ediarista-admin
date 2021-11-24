@@ -31,4 +31,8 @@
     @endforelse
     </tbody>
   </table>
+
+  <div class="d-flex justify-content-center">
+    {{ $servicos->links() }}
+  </div>
 @stop
